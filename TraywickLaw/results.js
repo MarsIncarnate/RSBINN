@@ -16,7 +16,7 @@ $w.onReady(function () {
         "#box383": "LIABILITY",
         "#box385": "MEDICAL MALPRACTICE"
     };
-	console.log(boxToTextMapping['CAR ACCIDENTS'])
+	
 	console.log(boxToTextMapping.findIndex(box => box.includes('CAR ACCIDENTS')))
 
     // Add onChange event to the dropdown
